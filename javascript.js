@@ -17,7 +17,7 @@ console.log(person.gender)
 console.log(person.proffesion)
 console.log(person.hometown)
 
- //bracket notation
+//bracket notation
 console.log(person["firstname"])
 console.log(person["lastname"])
 console.log(person["age"])
