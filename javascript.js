@@ -1,25 +1,29 @@
 //Objekt m. egenskaber.
-let character = {
-    firstname: "Codemaster",
-    level: "30",
-    class: "warrior",
-    spec: "protection",
+let person = {
+    firstname: "Mathias",
+    lastname: "Agzigüzel Sørensen",
+    age: "30",
+    gender: "♂",
+    proffesion: "Web developer",
     hometown: "Kolding",
+
 }
 
 //dot notation
-console.log(character.firstname)
-console.log(character.level)
-console.log(character.class)
-console.log(character.spec)
-console.log(character.hometown)
+console.log(person.firstname)
+console.log(person.lastname)
+console.log(person.age)
+console.log(person.gender)
+console.log(person.proffesion)
+console.log(person.hometown)
 
  //bracket notation
-console.log(character["firstname"])
-console.log(character["level"])
-console.log(character["class"])
-console.log(character["spec"])
-console.log(character["hometown"])
+console.log(person["firstname"])
+console.log(person["lastname"])
+console.log(person["age"])
+console.log(person["gender"])
+console.log(person["proffesion"])
+console.log(person["hometown"])
 
 
 //opgave 2. Nestede objekter
@@ -27,7 +31,7 @@ let aboutme = {
     firstname: "Mathias",
     lastname: "Agzigüzel Sørensen",
     age: 30,
-    hobbies: ["programming","music","bodybuilding","long walks", "fotography",], //nestede objekter
+    hobbies: ["programming","music","bodybuilding","long walks", "photography",], //nestede objekter
     married: true,
     wifey: {
         name: "Zeliha",
